@@ -1,33 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
 </head>
+
 <body>
-    <div class="calculator">
-        <input type="text" id="display" disabled>
-        <div class="buttons">
-            <button class="btn" onclick="clearDisplay()">C</button>
-            <button class="btn" onclick="appendToDisplay('/')">/</button>
-            <button class="btn" onclick="appendToDisplay('*')">*</button>
-            <button class="btn" onclick="appendToDisplay('-')">-</button>
-            <button class="btn" onclick="appendToDisplay('7')">7</button>
-            <button class="btn" onclick="appendToDisplay('8')">8</button>
-            <button class="btn" onclick="appendToDisplay('9')">9</button>
-            <button class="btn" onclick="appendToDisplay('+')">+</button>
-            <button class="btn" onclick="appendToDisplay('4')">4</button>
-            <button class="btn" onclick="appendToDisplay('5')">5</button>
-            <button class="btn" onclick="appendToDisplay('6')">6</button>
-            <button class="btn equal" onclick="calculateResult()">=</button>
-            <button class="btn" onclick="appendToDisplay('1')">1</button>
-            <button class="btn" onclick="appendToDisplay('2')">2</button>
-            <button class="btn" onclick="appendToDisplay('3')">3</button>
-            <button class="btn" onclick="appendToDisplay('0')">0</button>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Pranav Deore</h1>
+        <p>Hello! I’m Pranav Deore, a passionate web developer with a strong foundation in front-end technologies. With
+            experience in HTML, CSS, and JavaScript, I enjoy creating responsive and user-friendly websites that provide
+            an excellent user experience. My goal is to bring ideas to life through clean code and innovative designs.
+        </p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="image.jpg" alt="Pranav Mohankumar Deore" class="profile-img">
+        <p>I am Pranav Deore, a third-year Computer Science student with a focus on web development.
+            Over the past few years, I have developed a strong skill set in HTML, CSS, JavaScript and java. Throughout
+            my academic career, I have worked on various projects, including a Library management system , Pizza
+            delivery website , Admission Pridiction application ,
+            where I learned the importance of user-centered design and effective coding practices. My
+            coursework has also provided me with a solid foundation in algorithms, data structures, and database
+            management, which I apply to optimize my web applications and websites .</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>python</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Library Management System</h3>
+            <img src="Picture.jpg" sizes="50cm" alt="Project 1">
+            <p>The project aims <br>
+                1] Online book issue <br>
+                2] Request column for librarian for providing new books <br>
+                3] A separate column for digital library <br>
+                4] Student login page where student can find books issued by him/her and date of return. <br>
+                5] A search column to search availability of books <br>
+                6] A teacher login page where teacher can add any events being organized in the
+                college and important suggestions regarding books. <br>
+                7] Online notice board about the workshop
+
+            </p>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <div class="project">
+            <h3>Pizza Delivery system</h3>
+            <img src="Picture1.jpg" alt="Project 2">
+            <img src="Picture2.jpg" alt="">
+            <p>The proposed system is design to develop an online Pizza management system for customer in such a way
+                that the Customer will check different types of pizza, view it and then purchase it.This Website is
+                Developed in
+                Visual studio code. <br>
+                Front end: HTML, CSS, JS. <br>
+                Back end: SQL, PHP. <br>
+                The main Processes in this project are Add the Items for customers and customer will place the order.
+                <br>
+                -Conclusion- <br>
+                System works well, Fulfil admins and Customer’s requirements. Admin and Customer use the web app easily
+                and able to purchases the different types of pizza. Save their times and efforts so that Customer able
+                to purchases the thinks which he or she wanted. So because online then it is easy if any wants it then
+                any one can check it order it. <br>
+                -Future Scopes- <br>
+                Create an App for this Pizza Johns Shop. Also add the Facility for the Online Payment.
+
+            </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" download>Download my resume</a></p>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: pranavdeore048@gmail.com.com</p>
+        <p>Phone: 9022060731</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p><a href="#about">Back to top</a></p>
+    </footer>
+
 </body>
+
 </html>
