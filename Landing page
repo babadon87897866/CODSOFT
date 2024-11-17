@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Project management Consulting</h1>
+            <p>Your one-stop solution for innovative ideas and execution!</p>
+            <button>Get Started</button>
+            
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section id="features" class="section">
+            <div class="container">
+                <nav>
+                <h2>Features</h2>
+                </nav>
+                <div class="feature-container">
+                    <div class="feature-box">
+                        <h3>Feature 1</h3>
+                        <p>Explore our amazing feature that provides unique solutions.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Feature 2</h3>
+                        <p>Discover the benefits of our user-friendly interface.</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Feature 3</h3>
+                        <p>Learn how we ensure security and privacy for our users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section bg-light">
+            <div class="container">
+                <nav>
+                <h2>About Us</h2>
+                </nav>
+                <p>We are committed to delivering top-notch solutions with a focus on innovation and user experience. Our team of experts is dedicated to your success.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <nav>
+                <h2>Our Services</h2>
+                </nav>
+                <div class="service-container">
+                    <div class="service-box">
+                        <h3>Service 1</h3>
+                        <p>Expert consultation to elevate your project.</p>
+                    </div>
+                    <div class="service-box">
+                        <h3>Service 2</h3>
+                        <p>Comprehensive project management solutions.</p>
+                    </div>
+                    <div class="service-box">
+                        <h3>Service 3</h3>
+                        <p>Tailored marketing strategies to reach your audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pranav deore. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
